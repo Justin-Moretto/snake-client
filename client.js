@@ -10,9 +10,9 @@ const connect = function() {
   conn.on('data', data => console.log(data));
   conn.setEncoding('utf8');
   conn.write('Name: JMO');
-  setInterval(() => conn.write('Move: up'), 500); 
-  setTimeout(() => conn.write('Move: up'), 1000); 
-  setTimeout(() => conn.write('Move: right'), 1500); 
+  //setInterval(() => conn.write('Move: up'), 500); 
+  //setTimeout(() => conn.write('Move: up'), 1000); 
+  //setTimeout(() => conn.write('Move: right'), 1500); 
   return conn;
 };
 
