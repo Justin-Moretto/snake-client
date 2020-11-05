@@ -20,6 +20,8 @@ const handleUserInput = function(key) {
   else if (key === 'a') connection.write('Move: left');
   else if (key === 's') connection.write('Move: down');
   else if (key === 'd') connection.write('Move: right');
+  else if (key === 'f') connection.write('Say: sssSSss');
+  else if (key === 'g') connection.write('Say: gg wp');
 };
 
 module.exports = {setupInput};
